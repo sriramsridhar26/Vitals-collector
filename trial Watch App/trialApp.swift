@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct trial_Watch_AppApp: App {
-    var body: some Scene {
+        var body: some Scene {
         WindowGroup {
             ContentView()
         }

@@ -9,9 +9,12 @@ import SwiftUI
 
 
 struct HealthMesurementView: View {
-    @ObservedObject var heartRateMeasurementService = HeartRateMeasurementService()
-    init() {
-        self.heartRateMeasurementService = HeartRateMeasurementService()
+    @Binding var endpoint: String
+    var heartRateMeasurementService = HeartRateMeasurementService()
+    
+    init(endpoint: Binding<String>) {
+        _endpoint = endpoint
+        
     }
     
     var body: some View {
@@ -88,9 +91,9 @@ struct HealthMesurementView: View {
         task.resume()
     }
 }
-
-struct HeartRateMesurementView_Previews: PreviewProvider {
-    static var previews: some View {
-        HealthMesurementView()
-    }
-}
+//
+//struct HeartRateMesurementView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        HealthMesurementView(endpoint: )
+//    }
+//}

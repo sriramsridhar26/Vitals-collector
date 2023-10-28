@@ -12,6 +12,11 @@
 		E9EB8C932AEC405900D48E1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB8C922AEC405900D48E1F /* ContentView.swift */; };
 		E9EB8C952AEC405A00D48E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EB8C942AEC405A00D48E1F /* Assets.xcassets */; };
 		E9EB8C982AEC405A00D48E1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EB8C972AEC405A00D48E1F /* Preview Assets.xcassets */; };
+		E9EB8CA52AEC5DA400D48E1F /* HeartRateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB8CA42AEC5DA400D48E1F /* HeartRateManager.swift */; };
+		E9EB8CA72AEC958100D48E1F /* HeartRateHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB8CA62AEC958100D48E1F /* HeartRateHistoryView.swift */; };
+		E9EB8CA92AEC95AE00D48E1F /* CurrentHeartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB8CA82AEC95AD00D48E1F /* CurrentHeartRateView.swift */; };
+		E9EB8CAB2AED45DF00D48E1F /* CurrentBloodOxygenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB8CAA2AED45DF00D48E1F /* CurrentBloodOxygenView.swift */; };
+		E9EB8CAF2AED802300D48E1F /* HealthMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB8CAE2AED802300D48E1F /* HealthMeasurementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,13 @@
 		E9EB8C922AEC405900D48E1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9EB8C942AEC405A00D48E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9EB8C972AEC405A00D48E1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9EB8CA22AEC574500D48E1F /* trial Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "trial Watch App.entitlements"; sourceTree = "<group>"; };
+		E9EB8CA32AEC5A5B00D48E1F /* trial-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "trial-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E9EB8CA42AEC5DA400D48E1F /* HeartRateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateManager.swift; sourceTree = "<group>"; };
+		E9EB8CA62AEC958100D48E1F /* HeartRateHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateHistoryView.swift; sourceTree = "<group>"; };
+		E9EB8CA82AEC95AD00D48E1F /* CurrentHeartRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentHeartRateView.swift; sourceTree = "<group>"; };
+		E9EB8CAA2AED45DF00D48E1F /* CurrentBloodOxygenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentBloodOxygenView.swift; sourceTree = "<group>"; };
+		E9EB8CAE2AED802300D48E1F /* HealthMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMeasurementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +90,17 @@
 		E9EB8C8F2AEC405900D48E1F /* trial Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				E9EB8CAE2AED802300D48E1F /* HealthMeasurementView.swift */,
+				E9EB8CAA2AED45DF00D48E1F /* CurrentBloodOxygenView.swift */,
+				E9EB8CA32AEC5A5B00D48E1F /* trial-Watch-App-Info.plist */,
+				E9EB8CA22AEC574500D48E1F /* trial Watch App.entitlements */,
 				E9EB8C902AEC405900D48E1F /* trialApp.swift */,
 				E9EB8C922AEC405900D48E1F /* ContentView.swift */,
 				E9EB8C942AEC405A00D48E1F /* Assets.xcassets */,
 				E9EB8C962AEC405A00D48E1F /* Preview Content */,
+				E9EB8CA42AEC5DA400D48E1F /* HeartRateManager.swift */,
+				E9EB8CA62AEC958100D48E1F /* HeartRateHistoryView.swift */,
+				E9EB8CA82AEC95AD00D48E1F /* CurrentHeartRateView.swift */,
 			);
 			path = "trial Watch App";
 			sourceTree = "<group>";
@@ -192,8 +211,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9EB8CA92AEC95AE00D48E1F /* CurrentHeartRateView.swift in Sources */,
 				E9EB8C932AEC405900D48E1F /* ContentView.swift in Sources */,
+				E9EB8CA52AEC5DA400D48E1F /* HeartRateManager.swift in Sources */,
+				E9EB8CA72AEC958100D48E1F /* HeartRateHistoryView.swift in Sources */,
+				E9EB8CAF2AED802300D48E1F /* HealthMeasurementView.swift in Sources */,
 				E9EB8C912AEC405900D48E1F /* trialApp.swift in Sources */,
+				E9EB8CAB2AED45DF00D48E1F /* CurrentBloodOxygenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,13 +351,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "trial Watch App/trial Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"trial Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = 67NJRNV79S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "trial-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = trial;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your health data to track your heart rate";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need access to your health data to record your heart rate";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -357,13 +385,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "trial Watch App/trial Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"trial Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = 67NJRNV79S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "trial-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = trial;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your health data to track your heart rate";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need access to your health data to record your heart rate";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,7 +424,7 @@
 				DEVELOPMENT_TEAM = 67NJRNV79S;
 				INFOPLIST_KEY_CFBundleDisplayName = trial;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.trial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testapp.trial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -408,7 +440,7 @@
 				DEVELOPMENT_TEAM = 67NJRNV79S;
 				INFOPLIST_KEY_CFBundleDisplayName = trial;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.trial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testapp.trial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
